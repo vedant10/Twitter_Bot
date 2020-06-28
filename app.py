@@ -1,9 +1,9 @@
 import tweepy
 import time
 
-auth = tweepy.OAuthHandler('0H1mGcGLyv9s7mf02hlZr9YE1','xLgEXp0aGaJu4oXe5HPjOMduAllxQkvbCqX15OQNfvUWvGyhSF')
+auth = tweepy.OAuthHandler('Add your API Key','Add your secret API key')
 
-auth.set_access_token('3317901392-61aGeChISizViSvxbPWmw8sGZWZ2KVEWNi3DUuD','xMQSALBSQrSSUuCWg6uIrkgMSrGJSdd6Ks3hgi2P4ONC6')
+auth.set_access_token('Add your access token','Add your access secret token')
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
